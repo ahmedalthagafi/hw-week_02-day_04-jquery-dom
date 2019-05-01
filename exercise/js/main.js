@@ -17,6 +17,7 @@
 
 function question1() {
 	// your answer here
+	 $('p').css('color', 'blue')
 }
 
 $("#button1").on('click', question1);
@@ -29,6 +30,7 @@ $("#button1").on('click', question1);
 
 function question2(){
 	// your answer here
+	$('h2').text('Ahmed')
 }
 
 $("#button2").on('click', question2);
@@ -42,6 +44,9 @@ $("#button2").on('click', question2);
 
 function question3(){
 	// your answer here
+	
+	$('.falseFact').html('<li>True Fact</li>')
+
 }
 
 $("#button3").on('click', question3);
@@ -56,6 +61,10 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+$('#button4').on('click',function(){
+
+	$('body, header').css('background-color', 'pink')
+})
 
 /**
  * Question 5:
@@ -63,6 +72,10 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+$('#button5').on('click',function(){
+
+	$('h2').css('color', 'green')
+})
 
 /**
  * Question 6:
@@ -70,6 +83,10 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ $('#button6').on('click',function(){
+
+	$('blockquote').html('<span>no quote</span>')
+})
 
 ///////////////////////////////////////////////////////////////////////////////////////
 // SECTION 3: This section is more difficult. Try your hand at the next 3 questions. //
@@ -82,6 +99,10 @@ $("#button3").on('click', question3);
 
  // your answer here
 
+$('#button7').on('click',function(){
+
+	$('header h1').text('jQuery Ninja');
+})
 /**
  * Question 8:
  * Have the following code execute when button 8 is clicked.
@@ -89,6 +110,10 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ $('#button8').on('click',function(){
+
+	$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
+})
 
 /**
  * Question 9:
@@ -96,6 +121,11 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+$('#button9').on('click',function(){
+
+	$("p").css('color','blue');
+	$("p").css('font-family','Georgia');
+})
 
 /**
  * Question 10:
@@ -105,4 +135,8 @@ $("#button3").on('click', question3);
 
 // your answer here
 
+$('#button10').on('click',function(){
+	$("p").css({'color': "blue", 'font-family': "Georgia"});
 
+
+})
